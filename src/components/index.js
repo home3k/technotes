@@ -67,7 +67,7 @@ class Container extends React.Component {
                 </a>
               </li>
               <li className={style.li}>
-                <a className={`${style.a} ${this.isActive(timeTypes.WEEKLY)}`} href="#" id="aaa"
+                <a className={`${style.a} ${this.isActive(timeTypes.WEEKLY)}`} href="#"
                   onClick={ () => {this.handleTimeTypeChange(timeTypes.WEEKLY)} }>
                   Weekly
                 </a>
@@ -83,9 +83,9 @@ class Container extends React.Component {
         </header>
 
         <div className={style.header2}>
-          <button className={style.btn} onClick={() => {this.handleTimeChange(false)}}> ⇦ </button>
+          <button className={style.btn} onClick={() => {this.handleTimeChange(false)}}> ⇦ &nbsp;  </button>
             {this.state.time}
-          <button className={style.btn} onClick={() => {this.handleTimeChange(true)}}> ⇨ </button>
+          <button className={style.btn} onClick={() => {this.handleTimeChange(true)}}> &nbsp; ⇨ </button>
         </div>
 
         <Boxes headlines={this.state.headlines} />

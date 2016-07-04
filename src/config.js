@@ -8,7 +8,7 @@ export const apis = {
 export const siteColor = {
   HN: '#FF6600',
   github: '#F5F5F5',
-  v2ex: '#FFFFFF',
+  v2ex: '#E2E2E2',
   reddit: '#CEE3F8',
   medium: '#19AA6E'
 }

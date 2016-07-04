@@ -8,7 +8,6 @@ body {
 
 .container {
   /*max-width: 900px;*/
-  background-image: url("http://static.v2ex.com/tiles/random.jpg");
   background-repeat: repeat;
 
 }
@@ -46,17 +45,17 @@ body {
 }
 
 .a:hover {
-  background-color: #70B7FD;
+  background-color: #19AA6E;
 }
 
 .a:active {
   background-color: #fff;
-  color: #444;
+  color: #19AA6E;
   cursor: default;
 }
 
 .aActive{
-  background-color: #70B7FD;
+  background-color: #19AA6E;
 }
 
 @media screen and (min-width: 300px) {
